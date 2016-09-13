@@ -6,7 +6,6 @@
 #define SOLVER_TEXTENCODER_H
 
 #include <string>
-#include "AlgorithmItem.h"
 
 class cTextEncoder{
 public:
@@ -15,8 +14,6 @@ public:
 
     void Encode(std::string Formula);
 
-private:
-    cAlgorithmItem<double> myAlgorithm;
 };
 
 #endif //SOLVER_TEXTENCODER_H
