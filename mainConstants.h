@@ -13,7 +13,7 @@ enum compilerDataTypes{
     operator_Minus,
     operator_UPLus,
     operator_UMinus,
-    operator_Multiople,
+    operator_Multiple,
     operator_Division
 };
 
