@@ -6,6 +6,8 @@
 #define SOLVER_TEXTENCODER_H
 
 #include <string>
+#include <vector>
+#include "DTree.h"
 
 class cTextEncoder{
 public:
@@ -14,6 +16,10 @@ public:
 
     void Encode(std::string Formula);
 
+    double getValue(double varValue);
+private:
+    std::vector<char> variables;
+    DTree* myTree;
 };
 
 #endif //SOLVER_TEXTENCODER_H

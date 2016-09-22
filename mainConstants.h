@@ -27,4 +27,10 @@ enum compilerAlphabet{
     y, z
 };
 
+enum compilerOperatorsPriority{
+    power,
+    multipleDevide,
+    plusMinus,
+    bracket
+};
 #endif //SOLVER_MAINCONSTANTS_H
